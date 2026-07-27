@@ -1,0 +1,108 @@
+<Meta name="PCS167_v5">
+  <messagelist>
+    <message status="normal" label="build" groupid="400002" scope="PCS167_v5" id="1215263250" classid="MessageObj"><![CDATA[Begin compiling with PSCAD Version 5.0.2]]></message>
+    <message status="warning" label="build" groupid="204503" scope="PCS167_v5" id="1725728360" classid="MessageObj"><![CDATA[One or more Fortran compiler checks and/or warning options are enabled in the project settings. It is recommended that these options be used during debugging only, as their use can result in a reduction of compile and/or simulation speed.]]></message>
+    <message status="normal" label="build" groupid="100006" id="1245383327" classid="CmpNavigator">
+      <User scope="PCS167_v5" name="BESS_1" status="normal" link="1397805971" /><![CDATA[Compiling 'BESS_1'. Generating network and data files.]]></message>
+    <message status="warning" label="build" groupid="206502" id="16748943" classid="CmpNavigator">
+      <User scope="PCS167_v5" name="master:select" status="warning" link="844668322" /><![CDATA[Signal 'RT_24' type conversion may lose accuracy at connection 'Ctrl']]></message>
+    <message status="warning" label="build" groupid="206502" id="1189009052" classid="CmpNavigator">
+      <User scope="PCS167_v5" name="master:logic_mult" status="warning" link="513043330" /><![CDATA[Signal 'MCB_DRVx' type conversion may lose accuracy at connection 'IN1']]></message>
+    <message status="warning" label="build" groupid="206502" id="951980402" classid="CmpNavigator">
+      <User scope="PCS167_v5" name="master:logic_mult" status="warning" link="692556731" /><![CDATA[Signal 'OCP_EN' type conversion may lose accuracy at connection 'IN1']]></message>
+    <message status="warning" label="build" groupid="206502" id="1294599427" classid="CmpNavigator">
+      <User scope="PCS167_v5" name="master:logic_mult" status="warning" link="692556731" /><![CDATA[Signal 'OCP_EN' type conversion may lose accuracy at connection 'IN2']]></message>
+    <message status="warning" label="build" groupid="206502" id="1319118074" classid="CmpNavigator">
+      <User scope="PCS167_v5" name="master:logic_mult" status="warning" link="2051685083" /><![CDATA[Signal 'PWM_EN1x' type conversion may lose accuracy at connection 'IN1']]></message>
+    <message status="warning" label="build" groupid="206502" id="133278640" classid="CmpNavigator">
+      <User scope="PCS167_v5" name="master:logic_mult" status="warning" link="2051685083" /><![CDATA[Signal 'PWM_EN1x' type conversion may lose accuracy at connection 'IN2']]></message>
+    <message status="warning" label="build" groupid="206502" id="1522411130" classid="CmpNavigator">
+      <User scope="PCS167_v5" name="master:logic_mult" status="warning" link="1518804321" /><![CDATA[Signal 'Tocp' type conversion may lose accuracy at connection 'IN2']]></message>
+    <message status="warning" label="build" groupid="206502" id="1259039397" classid="CmpNavigator">
+      <User scope="PCS167_v5" name="master:logic_mult" status="warning" link="1759061305" /><![CDATA[Signal 'Socp' type conversion may lose accuracy at connection 'IN2']]></message>
+    <message status="warning" label="build" groupid="206502" id="1456941925" classid="CmpNavigator">
+      <User scope="PCS167_v5" name="master:logic_mult" status="warning" link="840955847" /><![CDATA[Signal 'Rocp' type conversion may lose accuracy at connection 'IN2']]></message>
+    <message status="normal" label="build" groupid="100006" link="1494033269" id="1494033269" classid="FileNavigator"><![CDATA[Generating 'D:\PSCAD_simulink\8 stringPCS_GFL\PCS167_PSCAD5.0_240726\PCS167\PCS167_v5.if12\PCS167_v5.map'.]]><file scope="PCS167_v5">D:\PSCAD_simulink\8 stringPCS_GFL\PCS167_PSCAD5.0_240726\PCS167\PCS167_v5.if12\PCS167_v5.map</file></message>
+    <message status="normal" label="build" groupid="100015" scope="PCS167_v5" id="1164146790" classid="MessageObj"><![CDATA[The total number of live nodes: 39]]></message>
+    <message status="normal" label="build" groupid="0" link="1810892891" id="1810892891" classid="FileNavigator"><![CDATA[Coding .mak file: 'D:\PSCAD_simulink\8 stringPCS_GFL\PCS167_PSCAD5.0_240726\PCS167\PCS167_v5.if12\\PCS167_v5.mak']]><file scope="PCS167_v5">D:\PSCAD_simulink\8 stringPCS_GFL\PCS167_PSCAD5.0_240726\PCS167\PCS167_v5.if12\\PCS167_v5.mak</file></message>
+    <message status="normal" label="build" groupid="400000" scope="PCS167_v5" id="39090346" classid="MessageObj"><![CDATA[Time for Compile: 454ms  Make: 16ms]]></message>
+    <message status="normal" label="build" groupid="400000" scope="PCS167_v5" id="1078369584" classid="MessageObj"><![CDATA[Solve Time = 250ms]]></message>
+    <message status="normal" label="build" groupid="100016" scope="PCS167_v5" id="1611422435" classid="MessageObj"><![CDATA[Will execute (1): call C:\Program Files (x86)\Intel\Composer XE 2013 SP1\bin\ifortvars.bat  ia32]]></message>
+    <message status="normal" label="build" groupid="100016" scope="PCS167_v5" id="1985354506" classid="MessageObj"><![CDATA[Will execute (1): call "C:\Program Files (x86)\Intel\Composer XE 2013 SP1\bin\ifortvars.bat"  ia32]]></message>
+    <message status="normal" label="build" groupid="100016" scope="PCS167_v5" id="450995667" classid="MessageObj"><![CDATA[Will execute (2): nmake -f PCS167_v5.mak]]></message>
+    <message status="normal" label="build" groupid="100016" scope="PCS167_v5" id="856128378" classid="MessageObj"><![CDATA[Will execute (2): "D:\PSCAD_simulink\8 stringPCS_GFL\PCS167_PSCAD5.0_240726\PCS167\PCS167_v5.if12\PCS167_v5_mak.bat"]]></message>
+    <message status="normal" label="build" groupid="100005" scope="PCS167_v5" id="644186307" classid="MessageObj"><![CDATA[Creating EMTDC executable...]]></message>
+    <message status="normal" label="build" groupid="0" scope="PCS167_v5" id="480814655" classid="MessageObj"><![CDATA[D:\PSCAD_simulink\8 stringPCS_GFL\PCS167_PSCAD5.0_240726\PCS167\PCS167_v5.if12>call "C:\Program Files (x86)\Intel\Composer XE 2013 SP1\bin\ifortvars.bat"  ia32 ]]></message>
+    <message status="normal" label="build" groupid="0" scope="PCS167_v5" id="1805304562" classid="MessageObj"><![CDATA[Intel(R) Parallel Studio XE 2013 SP1]]></message>
+    <message status="normal" label="build" groupid="0" scope="PCS167_v5" id="2127614033" classid="MessageObj"><![CDATA[Copyright (C) 1985-2013 Intel Corporation. All rights reserved.]]></message>
+    <message status="normal" label="build" groupid="0" scope="PCS167_v5" id="141973398" classid="MessageObj"><![CDATA[Intel(R) Composer XE 2013 SP1 Update 1 (package 139)]]></message>
+    <message status="normal" label="build" groupid="0" scope="PCS167_v5" id="811135015" classid="MessageObj"><![CDATA[Setting environment for using Microsoft Visual Studio 2010 x86 tools.]]></message>
+    <message status="normal" label="build" groupid="0" scope="PCS167_v5" id="847479317" classid="MessageObj"><![CDATA[Microsoft (R) Program Maintenance Utility Version 10.00.30319.01]]></message>
+    <message status="normal" label="build" groupid="0" scope="PCS167_v5" id="56714715" classid="MessageObj"><![CDATA[Copyright (C) Microsoft Corporation.  All rights reserved.]]></message>
+    <message status="normal" label="build" groupid="100013" scope="PCS167_v5" id="227416823" classid="MessageObj"><![CDATA[Linking objects and libraries into binary 'PCS167_v5.exe']]></message>
+    <message status="warning" label="build" groupid="200008" scope="PCS167_v5" id="489499622" classid="MessageObj"><![CDATA[PCS_Controller.lib(Saber_Main.obj) : warning LNK4075: ºöÂÔ '/EDITANDCONTINUE'£¬ÓÉì¶ '/OPT:ICF' ÒŽ¸ñ]]></message>
+    <message status="normal" label="build" groupid="400003" scope="PCS167_v5" id="1939023922" classid="MessageObj"><![CDATA[Finished compiling with PSCAD Version 5.0.2]]></message>
+  </messagelist>
+  <ViewContext>
+    <Window defn="PCS167_v5:Main" call="0" />
+  </ViewContext>
+  <List classid="View">
+    <View name="Main" zoomscale="1" scrollx="542" scrolly="0" />
+    <View name="FFT_Mod" zoomscale="1.5" scrollx="0" scrolly="0" />
+    <View name="ThreePhase_3Level" zoomscale="1.5" scrollx="0" scrolly="0" />
+    <View name="P13" zoomscale="1.5" scrollx="0" scrolly="0" />
+    <View name="P6" zoomscale="1.5" scrollx="0" scrolly="0" />
+    <View name="xE_SeriesCap_13" zoomscale="1.5" scrollx="0" scrolly="360" />
+    <View name="Q274_1" zoomscale="0.6144" scrollx="0" scrolly="368" />
+    <View name="P10" zoomscale="1.5" scrollx="0" scrolly="0" />
+    <View name="EtranBreakerControl" zoomscale="1.5" scrollx="0" scrolly="144" />
+    <View name="E11" zoomscale="1.5" scrollx="0" scrolly="0" />
+    <View name="E111" zoomscale="1.5" scrollx="0" scrolly="0" />
+    <View name="B_2" zoomscale="1.5" scrollx="0" scrolly="576" />
+    <View name="xE_14069_99196_1" zoomscale="1.5" scrollx="0" scrolly="0" />
+    <View name="BESS_1" zoomscale="0.96" scrollx="946" scrolly="175" />
+  </List>
+  <Output device="EMTDC" version="2010" date="2024/08/20" time="10:24:42.000000">
+    <Domain name="Time" unit="s" mult="0.0" skew="0.0">
+      <Sample rate="5000.0" end="50000" />
+    </Domain>
+    <List classid="Analog">
+      <Analog name="Main(0):Iins_Term" index="1" gindex="100663297" id="2028353718:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Vins_term" index="4" gindex="100663300" id="88914999:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Vterm" index="7" gindex="100663303" id="1390243157:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Qterm" index="8" gindex="100663304" id="591733121:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Pterm" index="9" gindex="100663305" id="316759755:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):Triasign_PWM" index="10" gindex="100663306" id="1405517354:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):SOC" index="11" gindex="100663307" id="1309518999:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):Vlrms" index="12" gindex="100663308" id="633430301:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):P" index="15" gindex="100663311" id="1759304118:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):Q" index="16" gindex="100663312" id="1726367679:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):I_active" index="17" gindex="100663313" id="774902703:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):I_reactive" index="18" gindex="100663314" id="852915585:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):Qref" index="19" gindex="100663315" id="873637793:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):PWM_Mod" index="20" gindex="100663316" id="1352856155:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):DebugData2" index="23" gindex="100663319" id="397119179:0" label="" dim="16" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):DebugData1" index="39" gindex="100663335" id="1590515653:0" label="" dim="16" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):T10" index="55" gindex="100663351" id="179888113:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):T4" index="56" gindex="100663352" id="306815033:0" label="" dim="4" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):T9" index="60" gindex="100663356" id="808171530:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):T3" index="61" gindex="100663357" id="1803651187:0" label="" dim="4" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):PCS Fault" index="65" gindex="100663361" id="1901999116:0" label="" dim="4" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):T2" index="69" gindex="100663365" id="633848052:0" label="" dim="4" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):T7" index="73" gindex="100663369" id="91963056:0" label="" dim="4" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):T1" index="77" gindex="100663373" id="424314969:0" label="" dim="4" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):PWM" index="81" gindex="100663377" id="2000231577:0" label="" dim="4" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):MCB" index="85" gindex="100663381" id="1981852133:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):MC" index="86" gindex="100663382" id="1455387293:0" label="" dim="4" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):DC_EN" index="90" gindex="100663386" id="1657097939:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):DC_SS_EN" index="91" gindex="100663387" id="1799110943:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):AC_SS_EN" index="92" gindex="100663388" id="1004112771:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):Icap" index="93" gindex="100663389" id="530113144:0" label="" dim="2" unit="" min="-100.0" max="100" />
+      <Analog name="Main(0)\BESS_1(0):Iabc2" index="95" gindex="100663391" id="1213588391:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):Iabc1" index="98" gindex="100663394" id="2145875857:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):Igabc" index="101" gindex="100663397" id="1265497071:0" label="" dim="3" unit="" min="-2" max="2" />
+      <Analog name="Main(0)\BESS_1(0):Vabc1" index="104" gindex="100663400" id="2055291273:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+    </List>
+    <List classid="Digital" />
+  </Output>
+</Meta>
