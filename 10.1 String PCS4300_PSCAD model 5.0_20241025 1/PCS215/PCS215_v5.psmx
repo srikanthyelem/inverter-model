@@ -1,0 +1,1335 @@
+<Meta name="PCS167_v5">
+  <messagelist>
+    <message status="normal" label="build" groupid="400002" scope="PCS167_v5" id="1587676916" classid="MessageObj"><![CDATA[Begin compiling with PSCAD Version 5.0.2]]></message>
+    <message status="warning" label="build" groupid="204503" scope="PCS167_v5" id="1102782958" classid="MessageObj"><![CDATA[One or more Fortran compiler checks and/or warning options are enabled in the project settings. It is recommended that these options be used during debugging only, as their use can result in a reduction of compile and/or simulation speed.]]></message>
+    <message status="warning" label="build" groupid="307507" id="312705403" classid="CmpNavigator">
+      <User scope="PCS215_v5" name="xfmr_2w_scaled" status="warning" link="727530422" /><![CDATA[Shorted ports 'X1' are directly overtop one another.]]></message>
+    <message status="warning" label="build" groupid="307507" id="1700991989" classid="CmpNavigator">
+      <User scope="PCS215_v5" name="xfmr_2w_scaled" status="warning" link="727530422" /><![CDATA[Shorted ports 'X2' are directly overtop one another.]]></message>
+    <message status="normal" label="build" groupid="100006" link="11739959" id="11739959" classid="FileNavigator"><![CDATA[Generating 'D:\PSCAD_simulink\9 stringPCS_GFL215\PCS215_PSCAD5.0_240820\PCS215\PCS215_v5.if12\PCS215_v5.map'.]]><file scope="PCS167_v5">D:\PSCAD_simulink\9 stringPCS_GFL215\PCS215_PSCAD5.0_240820\PCS215\PCS215_v5.if12\PCS215_v5.map</file></message>
+    <message status="normal" label="build" groupid="100015" scope="PCS167_v5" id="197238913" classid="MessageObj"><![CDATA[The total number of live nodes: 52]]></message>
+    <message status="normal" label="build" groupid="0" link="1437944402" id="1437944402" classid="FileNavigator"><![CDATA[Coding .mak file: 'D:\PSCAD_simulink\9 stringPCS_GFL215\PCS215_PSCAD5.0_240820\PCS215\PCS215_v5.if12\\PCS215_v5.mak']]><file scope="PCS167_v5">D:\PSCAD_simulink\9 stringPCS_GFL215\PCS215_PSCAD5.0_240820\PCS215\PCS215_v5.if12\\PCS215_v5.mak</file></message>
+    <message status="normal" label="build" groupid="400000" scope="PCS167_v5" id="814978720" classid="MessageObj"><![CDATA[Time for Compile: 1093ms  Make: 31ms]]></message>
+    <message status="normal" label="build" groupid="400000" scope="PCS167_v5" id="1840909307" classid="MessageObj"><![CDATA[Solve Time = 1266ms]]></message>
+    <message status="normal" label="build" groupid="100016" scope="PCS167_v5" id="2792886" classid="MessageObj"><![CDATA[Will execute (1): call C:\Program Files (x86)\Intel\Composer XE 2013 SP1\bin\ifortvars.bat  ia32]]></message>
+    <message status="normal" label="build" groupid="100016" scope="PCS167_v5" id="1872624526" classid="MessageObj"><![CDATA[Will execute (1): call "C:\Program Files (x86)\Intel\Composer XE 2013 SP1\bin\ifortvars.bat"  ia32]]></message>
+    <message status="normal" label="build" groupid="100016" scope="PCS167_v5" id="1750074444" classid="MessageObj"><![CDATA[Will execute (2): nmake -f PCS215_v5.mak]]></message>
+    <message status="normal" label="build" groupid="100016" scope="PCS167_v5" id="1696606215" classid="MessageObj"><![CDATA[Will execute (2): "D:\PSCAD_simulink\9 stringPCS_GFL215\PCS215_PSCAD5.0_240820\PCS215\PCS215_v5.if12\PCS215_v5_mak.bat"]]></message>
+    <message status="normal" label="build" groupid="100005" scope="PCS167_v5" id="1261420063" classid="MessageObj"><![CDATA[Creating EMTDC executable...]]></message>
+    <message status="normal" label="build" groupid="0" scope="PCS167_v5" id="337217732" classid="MessageObj"><![CDATA[D:\PSCAD_simulink\9 stringPCS_GFL215\PCS215_PSCAD5.0_240820\PCS215\PCS215_v5.if12>call "C:\Program Files (x86)\Intel\Composer XE 2013 SP1\bin\ifortvars.bat"  ia32 ]]></message>
+    <message status="normal" label="build" groupid="0" scope="PCS167_v5" id="1552695687" classid="MessageObj"><![CDATA[Intel(R) Parallel Studio XE 2013 SP1]]></message>
+    <message status="normal" label="build" groupid="0" scope="PCS167_v5" id="1099832012" classid="MessageObj"><![CDATA[Copyright (C) 1985-2013 Intel Corporation. All rights reserved.]]></message>
+    <message status="normal" label="build" groupid="0" scope="PCS167_v5" id="1896747708" classid="MessageObj"><![CDATA[Intel(R) Composer XE 2013 SP1 Update 1 (package 139)]]></message>
+    <message status="normal" label="build" groupid="0" scope="PCS167_v5" id="2031519286" classid="MessageObj"><![CDATA[Setting environment for using Microsoft Visual Studio 2010 x86 tools.]]></message>
+    <message status="normal" label="build" groupid="0" scope="PCS167_v5" id="544224011" classid="MessageObj"><![CDATA[Microsoft (R) Program Maintenance Utility Version 10.00.30319.01]]></message>
+    <message status="normal" label="build" groupid="0" scope="PCS167_v5" id="1775613838" classid="MessageObj"><![CDATA[Copyright (C) Microsoft Corporation.  All rights reserved.]]></message>
+    <message status="normal" label="build" groupid="100013" scope="PCS167_v5" id="1474420266" classid="MessageObj"><![CDATA[Linking objects and libraries into binary 'PCS215_v5.exe']]></message>
+    <message status="warning" label="build" groupid="200008" scope="PCS167_v5" id="2130457258" classid="MessageObj"><![CDATA[PCS_Controller.lib(Saber_Main.obj) : warning LNK4075: ºöÂÔ '/EDITANDCONTINUE'£¬ÓÉì¶ '/OPT:ICF' ÒŽ¸ñ]]></message>
+    <message status="normal" label="build" groupid="400003" scope="PCS167_v5" id="12218364" classid="MessageObj"><![CDATA[Finished compiling with PSCAD Version 5.0.2]]></message>
+  </messagelist>
+  <ViewContext>
+    <Window defn="PCS215_v5:Main" call="0" />
+  </ViewContext>
+  <List classid="View">
+    <View name="Main" zoomscale="1.5625" scrollx="885" scrolly="265" />
+    <View name="FFT_Mod" zoomscale="1.5" scrollx="0" scrolly="0" />
+    <View name="ThreePhase_3Level" zoomscale="1.5" scrollx="0" scrolly="0" />
+    <View name="P6" zoomscale="1.5" scrollx="0" scrolly="0" />
+    <View name="xE_SeriesCap_13" zoomscale="1.5" scrollx="0" scrolly="0" />
+    <View name="B_2" zoomscale="1.5" scrollx="0" scrolly="576" />
+    <View name="xE_14069_99196_1" zoomscale="1.5" scrollx="0" scrolly="0" />
+    <View name="BESS_1" zoomscale="2.92969" scrollx="1855" scrolly="777" />
+    <View name="Z2" zoomscale="0.768" scrollx="0" scrolly="0" />
+    <View name="WW111" zoomscale="1.5" scrollx="0" scrolly="0" />
+    <View name="P1" zoomscale="1.5" scrollx="0" scrolly="0" />
+    <View name="W11" zoomscale="1.5" scrollx="0" scrolly="0" />
+    <View name="P9" zoomscale="1.5" scrollx="0" scrolly="0" />
+  </List>
+  <WireCache>
+    <Wire classid="TLine" name="Q274_DRUN_100x_v4:A2" id="126240962" x="3528" y="1044" w="120" h="58" orient="0" recv="0" send="0" disable="false" defn="Q274_DRUN_100x_v4:A2" back="-1" crc="98017323">
+      <User classid="UserCmp" name="PCS215_v5:A2" defn="PCS215_v5:A2" id="126240962" x="0" y="0" w="110" h="48" z="1" orient="0" link="126240962" q="4" disable="false">
+        <paramlist link="-1" name="" crc="0">
+          <param name="Name" value="W6" />
+          <param name="Date" value="1689906909" />
+          <param name="Freq" value="60" />
+          <param name="Length" value="0.001" />
+          <param name="Dim" value="3" />
+          <param name="Mode" value="1" />
+          <param name="CoupleEnab" value="0" />
+          <param name="CoupleName" value="" />
+          <param name="CoupleOffset" value="0.0" />
+          <param name="CoupleRef" value="0" />
+          <param name="gen_cnst" value="1" />
+          <param name="cct_overlayed" value="0" />
+          <param name="ManEnab" value="0" />
+          <param name="const_path" value="C:\Temp\my_constants_file.tlo" />
+          <param name="DataFormat" value="0" />
+          <param name="VR" value="230.0" />
+          <param name="MVA" value="100.0" />
+          <param name="r0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="r0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xl0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xl0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xc0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xc0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="bc0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="tt0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="zs0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="R" value="1.00304136006" />
+          <param name="X" value="23.1100050675" />
+          <param name="B" value="0.000394480265612" />
+        </paramlist>
+      </User>
+      <vertex x="0" y="0" />
+      <vertex x="18" y="0" />
+      <vertex x="90" y="0" />
+      <vertex x="108" y="0" />
+    </Wire>
+    <Wire classid="TLine" name="Q274_DRUN_100x_v4:T11" id="95846261" x="3888" y="882" w="120" h="58" orient="0" recv="0" send="0" disable="false" defn="Q274_DRUN_100x_v4:T11" back="-1" crc="96188677">
+      <User classid="UserCmp" name="PCS215_v5:T11" defn="PCS215_v5:T11" id="95846261" x="0" y="0" w="110" h="48" z="1" orient="0" link="95846261" q="4" disable="false">
+        <paramlist link="-1" name="" crc="0">
+          <param name="Name" value="W4" />
+          <param name="Date" value="1689906909" />
+          <param name="Freq" value="60" />
+          <param name="Length" value="0.001" />
+          <param name="Dim" value="3" />
+          <param name="Mode" value="1" />
+          <param name="CoupleEnab" value="0" />
+          <param name="CoupleName" value="" />
+          <param name="CoupleOffset" value="0.0" />
+          <param name="CoupleRef" value="0" />
+          <param name="gen_cnst" value="1" />
+          <param name="cct_overlayed" value="0" />
+          <param name="ManEnab" value="0" />
+          <param name="const_path" value="C:\Temp\my_constants_file.tlo" />
+          <param name="DataFormat" value="0" />
+          <param name="VR" value="230.0" />
+          <param name="MVA" value="100.0" />
+          <param name="r0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="r0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xl0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xl0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xc0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xc0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="bc0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="tt0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="zs0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="R" value="0.175006775799" />
+          <param name="X" value="3.17506127903" />
+          <param name="B" value="3.65836458839e-05" />
+        </paramlist>
+      </User>
+      <vertex x="0" y="0" />
+      <vertex x="18" y="0" />
+      <vertex x="90" y="0" />
+      <vertex x="108" y="0" />
+    </Wire>
+    <Wire classid="TLine" name="Q274_DRUN_100x_v4:T1" id="468291407" x="4176" y="738" w="120" h="58" orient="0" recv="0" send="0" disable="false" defn="Q274_DRUN_100x_v4:T1" back="-1" crc="35212430">
+      <User classid="UserCmp" name="PCS215_v5:T1" defn="PCS215_v5:T1" id="468291407" x="0" y="0" w="110" h="48" z="1" orient="0" link="468291407" q="4" disable="false">
+        <paramlist link="-1" name="" crc="0">
+          <param name="Name" value="W3" />
+          <param name="Date" value="1689906909" />
+          <param name="Freq" value="60" />
+          <param name="Length" value="0.001" />
+          <param name="Dim" value="3" />
+          <param name="Mode" value="1" />
+          <param name="CoupleEnab" value="0" />
+          <param name="CoupleName" value="" />
+          <param name="CoupleOffset" value="0.0" />
+          <param name="CoupleRef" value="0" />
+          <param name="gen_cnst" value="1" />
+          <param name="cct_overlayed" value="0" />
+          <param name="ManEnab" value="0" />
+          <param name="const_path" value="C:\Temp\my_constants_file.tlo" />
+          <param name="DataFormat" value="0" />
+          <param name="VR" value="230.0" />
+          <param name="MVA" value="100.0" />
+          <param name="r0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="r0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xl0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xl0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xc0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xc0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="bc0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="tt0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="zs0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="R" value="5.63544747604" />
+          <param name="X" value="133.150248058" />
+          <param name="B" value="0.00162163050043" />
+        </paramlist>
+      </User>
+      <vertex x="0" y="0" />
+      <vertex x="-18" y="0" />
+      <vertex x="-90" y="0" />
+      <vertex x="-108" y="0" />
+    </Wire>
+    <Wire classid="TLine" name="Q274_DRUN_100x_v4:T111" id="1710176439" x="3888" y="468" w="120" h="58" orient="0" recv="0" send="0" disable="false" defn="Q274_DRUN_100x_v4:T111" back="-1" crc="8955315">
+      <User classid="UserCmp" name="PCS215_v5:T111" defn="PCS215_v5:T111" id="1710176439" x="0" y="0" w="110" h="48" z="1" orient="0" link="1710176439" q="4" disable="false">
+        <paramlist link="-1" name="" crc="0">
+          <param name="Name" value="W2" />
+          <param name="Date" value="1689906908" />
+          <param name="Freq" value="60" />
+          <param name="Length" value="0.001" />
+          <param name="Dim" value="3" />
+          <param name="Mode" value="1" />
+          <param name="CoupleEnab" value="0" />
+          <param name="CoupleName" value="" />
+          <param name="CoupleOffset" value="0.0" />
+          <param name="CoupleRef" value="0" />
+          <param name="gen_cnst" value="1" />
+          <param name="cct_overlayed" value="0" />
+          <param name="ManEnab" value="0" />
+          <param name="const_path" value="C:\Temp\my_constants_file.tlo" />
+          <param name="DataFormat" value="0" />
+          <param name="VR" value="230.0" />
+          <param name="MVA" value="100.0" />
+          <param name="r0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="r0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xl0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xl0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xc0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xc0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="bc0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="tt0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="zs0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="R" value="0.225029313654" />
+          <param name="X" value="5.30034461958" />
+          <param name="B" value="7.37375983832e-05" />
+        </paramlist>
+      </User>
+      <vertex x="0" y="0" />
+      <vertex x="18" y="0" />
+      <vertex x="90" y="0" />
+      <vertex x="108" y="0" />
+    </Wire>
+    <Wire classid="TLine" name="Q274_DRUN_100x_v4:A22" id="1913406404" x="3528" y="468" w="120" h="58" orient="0" recv="0" send="0" disable="false" defn="Q274_DRUN_100x_v4:A22" back="-1" crc="18587974">
+      <User classid="UserCmp" name="PCS215_v5:A22" defn="PCS215_v5:A22" id="1913406404" x="0" y="0" w="110" h="48" z="1" orient="0" link="1913406404" q="4" disable="false">
+        <paramlist link="-1" name="" crc="0">
+          <param name="Name" value="W1" />
+          <param name="Date" value="1689906908" />
+          <param name="Freq" value="60" />
+          <param name="Length" value="0.001" />
+          <param name="Dim" value="3" />
+          <param name="Mode" value="1" />
+          <param name="CoupleEnab" value="0" />
+          <param name="CoupleName" value="" />
+          <param name="CoupleOffset" value="0.0" />
+          <param name="CoupleRef" value="0" />
+          <param name="gen_cnst" value="1" />
+          <param name="cct_overlayed" value="0" />
+          <param name="ManEnab" value="0" />
+          <param name="const_path" value="C:\Temp\my_constants_file.tlo" />
+          <param name="DataFormat" value="0" />
+          <param name="VR" value="230.0" />
+          <param name="MVA" value="100.0" />
+          <param name="r0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="r0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xl0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xl0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xc0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xc0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="bc0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="tt0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="zs0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="R" value="0.125006286116" />
+          <param name="X" value="3.30008285694" />
+          <param name="B" value="4.57154252616e-05" />
+        </paramlist>
+      </User>
+      <vertex x="0" y="0" />
+      <vertex x="18" y="0" />
+      <vertex x="90" y="0" />
+      <vertex x="108" y="0" />
+    </Wire>
+    <Wire classid="TLine" name="Q274_DRUN_100x_v4:AA2" id="1695630274" x="3636" y="360" w="120" h="58" orient="0" recv="0" send="0" disable="false" defn="Q274_DRUN_100x_v4:AA2" back="-1" crc="116281262">
+      <User classid="UserCmp" name="PCS215_v5:AA2" defn="PCS215_v5:AA2" id="1695630274" x="0" y="0" w="110" h="48" z="1" orient="0" link="1695630274" q="4" disable="false">
+        <paramlist link="-1" name="" crc="0">
+          <param name="Name" value="Q10" />
+          <param name="Date" value="1689906908" />
+          <param name="Freq" value="60" />
+          <param name="Length" value="0.001" />
+          <param name="Dim" value="3" />
+          <param name="Mode" value="1" />
+          <param name="CoupleEnab" value="0" />
+          <param name="CoupleName" value="" />
+          <param name="CoupleOffset" value="0.0" />
+          <param name="CoupleRef" value="0" />
+          <param name="gen_cnst" value="1" />
+          <param name="cct_overlayed" value="0" />
+          <param name="ManEnab" value="0" />
+          <param name="const_path" value="C:\Temp\my_constants_file.tlo" />
+          <param name="DataFormat" value="0" />
+          <param name="VR" value="230.0" />
+          <param name="MVA" value="100.0" />
+          <param name="r0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="r0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xl0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xl0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xc0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xc0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="bc0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="tt0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="zs0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="R" value="0.0750011592494" />
+          <param name="X" value="1.82501408034" />
+          <param name="B" value="2.540790182e-05" />
+        </paramlist>
+      </User>
+      <vertex x="0" y="0" />
+      <vertex x="-18" y="0" />
+      <vertex x="-90" y="0" />
+      <vertex x="-108" y="0" />
+    </Wire>
+    <Wire classid="TLine" name="Q274_DRUN_100x_v4:A222" id="1367646611" x="3618" y="270" w="120" h="58" orient="0" recv="0" send="0" disable="false" defn="Q274_DRUN_100x_v4:A222" back="-1" crc="81673319">
+      <User classid="UserCmp" name="PCS215_v5:A222" defn="PCS215_v5:A222" id="1367646611" x="0" y="0" w="110" h="48" z="1" orient="0" link="1367646611" q="4" disable="false">
+        <paramlist link="-1" name="" crc="0">
+          <param name="Name" value="Q9" />
+          <param name="Date" value="1689906908" />
+          <param name="Freq" value="60" />
+          <param name="Length" value="0.001" />
+          <param name="Dim" value="3" />
+          <param name="Mode" value="1" />
+          <param name="CoupleEnab" value="0" />
+          <param name="CoupleName" value="" />
+          <param name="CoupleOffset" value="0.0" />
+          <param name="CoupleRef" value="0" />
+          <param name="gen_cnst" value="1" />
+          <param name="cct_overlayed" value="0" />
+          <param name="ManEnab" value="0" />
+          <param name="const_path" value="C:\Temp\my_constants_file.tlo" />
+          <param name="DataFormat" value="0" />
+          <param name="VR" value="230.0" />
+          <param name="MVA" value="100.0" />
+          <param name="r0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="r0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xl0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xl0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xc0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xc0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="bc0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="tt0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="zs0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="R" value="0.125004941402" />
+          <param name="X" value="2.92505770842" />
+          <param name="B" value="4.05435993191e-05" />
+        </paramlist>
+      </User>
+      <vertex x="0" y="0" />
+      <vertex x="-18" y="0" />
+      <vertex x="-90" y="0" />
+      <vertex x="-108" y="0" />
+    </Wire>
+    <Wire classid="TLine" name="Q274_DRUN_100x_v4:A2222" id="1770931138" x="3636" y="162" w="120" h="58" orient="0" recv="0" send="0" disable="false" defn="Q274_DRUN_100x_v4:A2222" back="-1" crc="38321387">
+      <User classid="UserCmp" name="PCS215_v5:A2222" defn="PCS215_v5:A2222" id="1770931138" x="0" y="0" w="110" h="48" z="1" orient="0" link="1770931138" q="4" disable="false">
+        <paramlist link="-1" name="" crc="0">
+          <param name="Name" value="Q8" />
+          <param name="Date" value="1689906908" />
+          <param name="Freq" value="60" />
+          <param name="Length" value="0.001" />
+          <param name="Dim" value="3" />
+          <param name="Mode" value="1" />
+          <param name="CoupleEnab" value="0" />
+          <param name="CoupleName" value="" />
+          <param name="CoupleOffset" value="0.0" />
+          <param name="CoupleRef" value="0" />
+          <param name="gen_cnst" value="1" />
+          <param name="cct_overlayed" value="0" />
+          <param name="ManEnab" value="0" />
+          <param name="const_path" value="C:\Temp\my_constants_file.tlo" />
+          <param name="DataFormat" value="0" />
+          <param name="VR" value="230.0" />
+          <param name="MVA" value="100.0" />
+          <param name="r0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="r0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xl0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xl0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xc0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xc0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="bc0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="tt0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="zs0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="R" value="0.125004941402" />
+          <param name="X" value="2.92505770842" />
+          <param name="B" value="4.05435993191e-05" />
+        </paramlist>
+      </User>
+      <vertex x="0" y="0" />
+      <vertex x="-18" y="0" />
+      <vertex x="-90" y="0" />
+      <vertex x="-108" y="0" />
+    </Wire>
+    <Wire classid="TLine" name="Q274_DRUN_100x_v4:A1111" id="75365986" x="3456" y="162" w="120" h="58" orient="0" recv="0" send="0" disable="false" defn="Q274_DRUN_100x_v4:A1111" back="-1" crc="17046523">
+      <User classid="UserCmp" name="PCS215_v5:A1111" defn="PCS215_v5:A1111" id="75365986" x="0" y="0" w="110" h="48" z="1" orient="0" link="75365986" q="4" disable="false">
+        <paramlist link="-1" name="" crc="0">
+          <param name="Name" value="Q6" />
+          <param name="Date" value="1689906908" />
+          <param name="Freq" value="60" />
+          <param name="Length" value="0.001" />
+          <param name="Dim" value="3" />
+          <param name="Mode" value="1" />
+          <param name="CoupleEnab" value="0" />
+          <param name="CoupleName" value="" />
+          <param name="CoupleOffset" value="0.0" />
+          <param name="CoupleRef" value="0" />
+          <param name="gen_cnst" value="1" />
+          <param name="cct_overlayed" value="0" />
+          <param name="ManEnab" value="0" />
+          <param name="const_path" value="C:\Temp\my_constants_file.tlo" />
+          <param name="DataFormat" value="0" />
+          <param name="VR" value="230.0" />
+          <param name="MVA" value="100.0" />
+          <param name="r0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="r0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xl0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xl0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xc0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="xc0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="bc0mpu" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="tt0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="zs0m" value="dim (10,10)">
+            <row><![CDATA[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,-1,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,-1,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,-1,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,-1,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,-1,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,-1,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,-1,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,-1,-1]]></row>
+            <row><![CDATA[0,0,0,0,0,0,0,0,0,-1]]></row>
+          </param>
+          <param name="R" value="0.125005974875" />
+          <param name="X" value="3.35007995118" />
+          <param name="B" value="4.28034885145e-05" />
+        </paramlist>
+      </User>
+      <vertex x="0" y="0" />
+      <vertex x="-18" y="0" />
+      <vertex x="-90" y="0" />
+      <vertex x="-108" y="0" />
+    </Wire>
+  </WireCache>
+  <Output device="EMTDC" version="2010" date="2024/10/25" time="16:59:12.000000">
+    <Domain name="Time" unit="s" mult="0.0" skew="0.0">
+      <Sample rate="5000.0" end="100000" />
+    </Domain>
+    <List classid="Analog">
+      <Analog name="Main(0):Iins_Term" index="1" gindex="100663297" id="2028353718:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Vins_term" index="4" gindex="100663300" id="88914999:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Vterm" index="7" gindex="100663303" id="1390243157:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Qterm" index="8" gindex="100663304" id="591733121:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Pterm" index="9" gindex="100663305" id="316759755:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):Triasign_PWM" index="10" gindex="100663306" id="1405517354:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):SOC" index="11" gindex="100663307" id="1309518999:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):Vlrms" index="12" gindex="100663308" id="633430301:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):P" index="15" gindex="100663311" id="1759304118:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):Q" index="16" gindex="100663312" id="1726367679:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):I_active" index="17" gindex="100663313" id="774902703:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):I_reactive" index="18" gindex="100663314" id="852915585:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):Qref" index="19" gindex="100663315" id="873637793:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):PWM_Mod" index="20" gindex="100663316" id="1352856155:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):DebugData2" index="23" gindex="100663319" id="397119179:0" label="" dim="16" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):DebugData1" index="39" gindex="100663335" id="1590515653:0" label="" dim="16" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):T10" index="55" gindex="100663351" id="179888113:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):T4" index="56" gindex="100663352" id="306815033:0" label="" dim="4" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):T9" index="60" gindex="100663356" id="808171530:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):T3" index="61" gindex="100663357" id="1803651187:0" label="" dim="4" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):PCS Fault" index="65" gindex="100663361" id="1901999116:0" label="" dim="4" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):T2" index="69" gindex="100663365" id="633848052:0" label="" dim="4" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):T7" index="73" gindex="100663369" id="91963056:0" label="" dim="4" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):T1" index="77" gindex="100663373" id="424314969:0" label="" dim="4" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):PWM" index="81" gindex="100663377" id="2000231577:0" label="" dim="4" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):MCB" index="85" gindex="100663381" id="1981852133:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):MC" index="86" gindex="100663382" id="1455387293:0" label="" dim="4" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):DC_EN" index="90" gindex="100663386" id="1657097939:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):DC_SS_EN" index="91" gindex="100663387" id="1799110943:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):AC_SS_EN" index="92" gindex="100663388" id="1004112771:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):Icap" index="93" gindex="100663389" id="530113144:0" label="" dim="2" unit="" min="-100.0" max="100" />
+      <Analog name="Main(0)\BESS_1(0):Iabc2" index="95" gindex="100663391" id="1213588391:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):Iabc1" index="98" gindex="100663394" id="2145875857:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\BESS_1(0):Igabc" index="101" gindex="100663397" id="1265497071:0" label="" dim="3" unit="" min="-2" max="2" />
+      <Analog name="Main(0)\BESS_1(0):Vabc1" index="104" gindex="100663400" id="2055291273:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+    </List>
+    <List classid="Digital" />
+  </Output>
+</Meta>
